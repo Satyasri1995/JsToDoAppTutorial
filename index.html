@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    </link>
+    <script src="./js/main.js"></script>
+    <title>To Do List</title>
+</head>
+
+<body>
+    <main class="container curveBorder">
+        <section class="listContainer shadow curveBorder">
+            <div class="heading">
+                <span class="title">Items to complete</span>
+            </div>
+            <div class="listItems" id="InCompleteContainer">
+                <!-- <div class="list-item shadow">
+                    <span class="item-name">Some Item</span>
+                    <button class="item-button complete-button">Complete</button>
+                </div>
+                <div class="list-item shadow">
+                    <span class="item-name">Some Item</span>
+                    <button class="item-button complete-button">Complete</button>
+                </div> -->
+
+            </div>
+        </section>
+        <section class="listContainer shadow curveBorder">
+            <div class="heading">
+                <span class="title">Completed Items</span>
+            </div>
+            <div class="listItems" id="CompleteContainer">
+                <!-- <div class="list-item shadow">
+                    <span class="item-name">Some Item</span>
+                    <button class="item-button in-complete-button">In-Complete</button>
+                </div> -->
+            </div>
+        </section>
+        <section class="listContainer shadow curveBorder">
+            <div class="heading">
+                <span class="title">Add Items</span>
+            </div>
+            <div class="listItems">
+                <form class="addForm" id="addForm" >
+                    <input class="shadow" type="text" name="product" placeholder="Enter Item Name" />
+                    <button class="shadow" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
